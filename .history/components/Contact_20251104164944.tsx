@@ -100,7 +100,7 @@ const Contact = () => {
                         {/* Success Message */}
                         {submitStatus === 'success' && (
                             <div className="mb-6 p-4 bg-green-600 text-white rounded-lg">
-                                ✓ Message sent successfully! We{"'"}ll get back to you soon.
+                                ✓ Message sent successfully! We'll get back to you soon.
                             </div>
                         )}
 

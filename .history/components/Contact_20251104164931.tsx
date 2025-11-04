@@ -88,7 +88,7 @@ const Contact = () => {
                         Learn Smarter, Grow Faster with <span className='text-[#189677]'>US</span>
                     </h1>
                     <p className="text-gray-300 text-lg">
-                        Have questions? We{"'"}d love to hear from you. Send us a message and we{"'"}ll respond as soon as possible.
+                        Have questions? W{"'"}d love to hear from you. Send us a message and we'll respond as soon as possible.
                     </p>
                 </div>
 
@@ -100,7 +100,7 @@ const Contact = () => {
                         {/* Success Message */}
                         {submitStatus === 'success' && (
                             <div className="mb-6 p-4 bg-green-600 text-white rounded-lg">
-                                ✓ Message sent successfully! We{"'"}ll get back to you soon.
+                                ✓ Message sent successfully! We'll get back to you soon.
                             </div>
                         )}
 
