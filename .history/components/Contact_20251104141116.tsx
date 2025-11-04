@@ -1,0 +1,16 @@
+import React from 'react';
+import Image from 'next/image';
+
+const Contact = () => {
+    return (
+        <div className="container mt-20 px-6" id="contact">
+            <div className="flex row-span-1 md:row-span-2">
+                
+                <h1>Contact</h1>
+
+            </div>
+        </div>
+    );
+};
+
+export default Contact;

@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+@layer utilities {
+    .nav_link {
+        @apply relative text-base font-medium w-fit block hover:text-[#189677] after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#189677] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300;
+    }
+}
