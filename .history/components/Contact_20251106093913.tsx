@@ -64,7 +64,6 @@ const Contact = () => {
                 console.error('Error message:', error.message);
             }
             
-            // Clear error message after 5 seconds
             setTimeout(() => setSubmitStatus('idle'), 5000);
         } finally {
             setIsLoading(false);

@@ -31,6 +31,7 @@ const Contact = () => {
             // Initialize EmailJS with public key
             emailjs.init(PUBLIC_KEY);
 
+            // Use sendForm with the form reference for better compatibility
             if (formRef.current) {
                 const result = await emailjs.sendForm(
                     SERVICE_ID,
