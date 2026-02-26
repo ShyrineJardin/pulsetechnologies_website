@@ -3,9 +3,10 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true
   },
-    reactStrictMode: true,
-    // swcMinify: true,
-  };
+  reactStrictMode: true,
+  output: 'export'
+  // swcMinify: true,
+};
   
-  module.exports = nextConfig;
+module.exports = nextConfig;
   
