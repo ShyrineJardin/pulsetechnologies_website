@@ -24,9 +24,9 @@ const Contact = () => {
 
         try {
             // EmailJS credentials
-            const SERVICE_ID = process.env.SERVICE_ID || '';
-            const TEMPLATE_ID = process.env.TEMPLATE_ID || '';
-            const PUBLIC_KEY = process.env.PUBLIC_KEY || '';
+            const SERVICE_ID = 'service_t08xgwk';
+            const TEMPLATE_ID = 'template_jcjniap';
+            const PUBLIC_KEY = '58ECh6MWL5naHgSe0';
 
             // Initialize EmailJS with public key
             emailjs.init(PUBLIC_KEY);
