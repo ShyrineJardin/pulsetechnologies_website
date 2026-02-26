@@ -9,7 +9,7 @@ const Footer = () => {
     <div className="bg-black py-10">
       <div className="container mt-20">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="flex flex-col items-center"><a href="#"><Image src="/logo.png" alt="logo" width={100} height={100} priority /></a>
+          <div className="flex flex-col items-center"><a href="#"><img src="/logo.png" alt="logo" width={100} height={100}/></a>
           </div>
 
           <div className="flex flex-col items-center">
